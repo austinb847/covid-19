@@ -50,4 +50,7 @@ export class StateService {
   async setHisotricalStateData() {
     const response = await this.getHistoricalStateData();
     this.historicalData = response;
+
+  }
+
 }
